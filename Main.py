@@ -1,6 +1,6 @@
-import sys
 from RegexExplainer import RegexExplainer
 from RegexMarker import RegexMarker
+
 def main():
     while True:
         i = int(input("(1)Regex Explainer\t(2)Regex Marker\n"))
