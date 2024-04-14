@@ -3,7 +3,7 @@ from RegexMarker import RegexMarker
 
 def main():
     while True:
-        i = int(input("(1)Regex Explainer\t(2)Regex Marker\n"))
+        i = int(input("(1)Regex Explainer\t(2)Regex Marker\n")) # Option 1 enables functionality 1; Option 2 enables functionality 2
         if i == 1:
             run_regex_explainer()
             break
