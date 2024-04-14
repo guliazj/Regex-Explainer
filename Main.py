@@ -13,7 +13,6 @@ def main():
         else: print("Invalid input\n")
 
 def run_regex_explainer():
-    # Obtain regex input from the user
     regex_input = input("Please enter a regex pattern: ")
     explainer = RegexExplainer(regex_input)
     explainer.parse_pattern()
