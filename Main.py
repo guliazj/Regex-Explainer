@@ -1,4 +1,4 @@
-import re
+import sys
 from RegexExplainer import RegexExplainer
 from RegexMarker import RegexMarker
 def main():
@@ -21,11 +21,12 @@ def run_regex_explainer():
     explainer.display_explanations()
 
 def run_regex_marker():
-    regex_input = input("Please enter a regex pattern: ")
-    text_input = input("Please enter text: ")
-    marker = RegexMarker(regex_input)
-    highlighted_text = marker.mark_text(text_input)
-    print(highlighted_text)
+    regexInput = input("Please enter a regex pattern: ")
+    textInput = input("Please enter text: ")
+    marker = RegexMarker(regexInput)
+    highlightedText = marker.mark_text(textInput)
+    print("Highlighted Text:")
+    print(highlightedText)
 
 if __name__ == "__main__":
     main()
